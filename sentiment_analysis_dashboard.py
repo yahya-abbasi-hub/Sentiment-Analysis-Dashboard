@@ -8,10 +8,10 @@ from textblob import TextBlob
 import plotly.graph_objects as go
 import re
 
-# ── Page config ─────────────────────────────────────────────
+# ── Page config ──────────────
 st.set_page_config(page_title="Sentiment Analyzer", layout="centered")
 
-# ── Emotion keyword dictionary (replaces NRCLex) ────────────
+# ── Emotion keyword dictionary  ────────────
 EMOTION_WORDS = {
     "joy":      ["happy","happiness","joy","love","wonderful","great","amazing","enjoy",
                  "delight","cheerful","glad","pleased","excited","fantastic","excellent","bliss",
